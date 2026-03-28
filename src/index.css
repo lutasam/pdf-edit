@@ -1,0 +1,46 @@
+:root {
+  --bg: #1a1a2e;
+  --bg-surface: #16213e;
+  --bg-elevated: #0f3460;
+  --text: #e4e4e4;
+  --text-muted: #a0a0b0;
+  --accent: #4a90d9;
+  --accent-hover: #5da0e9;
+  --border: #2a2a4a;
+  --danger: #e74c3c;
+  --success: #2ecc71;
+  --toolbar-bg: #1e1e3a;
+  --shadow: 0 2px 12px rgba(0, 0, 0, 0.3);
+  --radius: 8px;
+}
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+html, body, #root {
+  height: 100%;
+  width: 100%;
+  overflow: hidden;
+}
+
+body {
+  font-family: 'Segoe UI', system-ui, -apple-system, sans-serif;
+  background: var(--bg);
+  color: var(--text);
+  -webkit-font-smoothing: antialiased;
+}
+
+button {
+  cursor: pointer;
+  border: none;
+  background: none;
+  color: inherit;
+  font: inherit;
+}
+
+input[type="file"] {
+  display: none;
+}
